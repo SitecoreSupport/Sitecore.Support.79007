@@ -45,8 +45,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Sitecore.EmailCampaign.dll</HintPath>
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.3.1.2\lib\Sitecore.EmailCampaign.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.EmailCampaign.Analytics.Model, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Analytics.Model.3.1.2\lib\Sitecore.EmailCampaign.Analytics.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign.Server, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
