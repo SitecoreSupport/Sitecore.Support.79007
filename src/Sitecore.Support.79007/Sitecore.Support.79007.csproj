@@ -40,39 +40,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Analytics">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.Analytics.dll</HintPath>
+    <Reference Include="Sitecore.Analytics, Version=8.0.5352.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Analytics.8.0.6\lib\Sitecore.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.3.1.2\lib\Sitecore.EmailCampaign.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sitecore.EmailCampaign.Analytics.Model, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.EmailCampaign.Analytics.Model.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore.EmailCampaign.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign.Server, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.EmailCampaign.Server.dll</HintPath>
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Server.3.1.2\lib\Sitecore.EmailCampaign.Server.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign.Statistics, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.EmailCampaign.Statistics.dll</HintPath>
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Statistics.3.1.2\lib\Sitecore.EmailCampaign.Statistics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.8.0.6\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Services.Core">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.Services.Core.dll</HintPath>
+    <Reference Include="Sitecore.Services.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Services.Core.8.0.6\lib\Sitecore.Services.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Services.Infrastructure">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80rev151127issue476900\Website\bin\Sitecore.Services.Infrastructure.dll</HintPath>
+    <Reference Include="Sitecore.Services.Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Services.Infrastructure.8.0.6\lib\Sitecore.Services.Infrastructure.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
