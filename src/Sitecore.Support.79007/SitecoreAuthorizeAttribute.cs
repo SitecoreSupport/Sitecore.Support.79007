@@ -35,7 +35,7 @@
         private class TicketManagerWrapper : SitecoreAuthorizeAttribute.ITicketManager
         {
             public bool IsCurrentTicketValid() =>
-                TicketManager.IsCurrentTicketValid();
+                Sitecore.Web.Authentication.TicketManager.IsCurrentTicketValid();
         }
     }
 }
