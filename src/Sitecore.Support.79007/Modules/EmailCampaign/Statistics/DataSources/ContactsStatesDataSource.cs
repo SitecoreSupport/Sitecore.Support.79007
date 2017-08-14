@@ -93,16 +93,16 @@
                         {
                             EcmCustomValues customData = (EcmCustomValues)automationState.GetCustomData("sc.ecm");
                             DataRow row = emptyDataTable.NewRow();
-                            row["ContactId"] = row["_id_ContactId"];
+                            row["ContactId"] = row1["_id_ContactId"];
                             row["Email"] = customData.Email;
                             row["Entry"] = automationState.EntryDateTime;
                             if (predicate == null)
                             {
-                                predicate = a => a.ID.ToGuid() == ((Guid)row["StateId"]);
+                                predicate = a => a.ID.ToGuid() == ((Guid)row1["StateId"]);
                             }
                             Item item = source.First<Item>(predicate);
                             row["StateName"] = this.coreFactory.GetItemUtilExt().GetItemFieldValue(item, FieldIDs.DisplayName);
-                            Recipient recipient = this.recipientRepository.GetRecipient(new XdbContactId((Guid)row["_id_ContactId"]));
+                            Recipient recipient = this.recipientRepository.GetRecipient(new XdbContactId((Guid)row1["_id_ContactId"]));
                             if (recipient != null)
                             {
                             if(recipient.GetProperties<Email>().DefaultProperty != null)

@@ -52,9 +52,9 @@
       <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Analytics.Model.3.1.2\lib\Sitecore.EmailCampaign.Analytics.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.EmailCampaign.Server, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Server.3.1.2\lib\Sitecore.EmailCampaign.Server.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.EmailCampaign.Server, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Installed_Sitecore_Instances\sc80u6ecm312\Website\bin\Sitecore.EmailCampaign.Server.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.EmailCampaign.Statistics, Version=3.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EXM.Sitecore.EmailCampaign.Statistics.3.1.2\lib\Sitecore.EmailCampaign.Statistics.dll</HintPath>
